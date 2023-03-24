@@ -6,7 +6,8 @@
     "moduleResolution": "node",
   },
   "include": [
-    "src"
+    "src",
+    ".eslintrc.cjs",
   ],
   "exclude": [
     "node_modules",
