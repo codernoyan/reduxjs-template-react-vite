@@ -8,4 +8,4 @@ export const apiSlice = createApi({
     baseUrl: `http://localhost:${port}`,
   }),
   endpoints: (builder) => ({}),
-})
+});

@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { apiSlice } from "../features/api/apiSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import { apiSlice } from '../features/api/apiSlice';
 
 export const store = configureStore({
   reducer: {
@@ -9,4 +9,4 @@ export const store = configureStore({
   devTools: import.meta.env.MODE === 'development',
   // devTools: import.meta.env.DEV === false,
   // devTools: import.meta.env.PROD === true,
-})
+});
